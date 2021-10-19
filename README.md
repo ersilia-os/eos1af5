@@ -1,2 +1,2 @@
-# eos-template
-Template repository to add new models to the Ersilia Model Hub
+# eos1af5
+Explainable AI for Caco-2 passive permeability
