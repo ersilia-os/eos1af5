@@ -69,7 +69,7 @@ class Model(object):
             h = next(reader)
             R = []
             for r in reader:
-                R += [{"probability": float(r[0])}]
+                R += [{"log10_passive_permeability": float(r[0])}]
         return R
 
 
