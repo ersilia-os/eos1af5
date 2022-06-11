@@ -1,4 +1,4 @@
-# Molgrad-caco2
+# molgrad-caco2
 
 Coloring molecules for Caco-2 cell wall permeability
 
