@@ -19,7 +19,7 @@ This model was published by José Jiménez-Luna, Miha Skalic, Nils Weskamp, and 
 - Code: https://github.com/josejimenezluna/molgrad/
 
 ## License
-This repository is licensed under AGPL and is located at `/model` 
+This repository is licensed under AGPL-3.0 and is located at `/model` 
 
 ## History
 - Model was downloaded and incorporated on October 19, 2021
