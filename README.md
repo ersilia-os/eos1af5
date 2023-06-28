@@ -23,6 +23,9 @@ By combining a Message-Passing Graph Neural Network (MPGNN) and a Forward fully 
 * [Source Code](https://github.com/josejimenezluna/molgrad/)
 * Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos1af5)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://pubs.acs.org/doi/10.1021/acs.jcim.0c01344) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
