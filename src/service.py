@@ -56,7 +56,7 @@ class Model(object):
                 "python {0}/run.sh {1} {2} {3}".format(
                     self.framework_dir,
                     data_file,
-                    output_file
+                    output_file,
                     self.checkpoints_dir
                 )
             ]

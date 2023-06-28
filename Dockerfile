@@ -1,4 +1,4 @@
-FROM bentoml/model-server:0.11.0-py37
+FROM bentoml/model-server:0.11.0-py310
 MAINTAINER ersilia
 
 RUN conda install -c rdkit rdkit=2019.09.3.0
