@@ -25,7 +25,7 @@ with open(infile, "r") as f:
     for r in reader:
         mols += [Chem.MolToInchi(Chem.MolFromSmiles(r[0]))]
 
-preds = predict(mols, model_pt, progress=True)[:,0]
+preds = run(mols, model_pt, progress=True)[:,0]
 
 with open(outfile, "w") as f:
     writer = csv.writer(f)
