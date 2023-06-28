@@ -7,7 +7,7 @@ sys.path.append(os.path.join(ROOT, "molgrad"))
 
 infile = sys.argv[1]
 outfile = sys.argv[2]
-# checkpoints_dir = sys.argv[3]
+checkpoints_dir = sys.argv[3]
 
 import torch
 from molgrad.net import MPNNPredictor
