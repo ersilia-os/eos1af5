@@ -51,7 +51,7 @@ class Model(object):
         run_file = os.path.join(tmp_folder, self.RUN_FILE)
         with open(run_file, "w") as f:
             lines = [
-                "bash {0}/run.sh {1} {2}".format(
+                "bash {0}/run.sh {0} {1} {2}".format(
                     self.framework_dir,
                     data_file,
                     pred_file,
