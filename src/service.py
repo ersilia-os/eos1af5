@@ -24,10 +24,9 @@ def load_model(framework_dir, checkpoints_dir):
 
 class Model(object):
     def __init__(self):
-        self.DATA_FILE = "_data.csv"
+        self.DATA_FILE = "data.csv"
         self.PRED_FILE = "pred.csv"  
-        # self.OUTPUT_FILE = "_output.csv"
-        self.RUN_FILE = "_run.sh"
+        self.RUN_FILE = "run.sh"
         self.LOG_FILE = "run.log"
 
     def load(self, framework_dir, checkpoints_dir):
@@ -43,7 +42,6 @@ class Model(object):
     def run(self, smiles_list):
         tmp_folder = tempfile.mkdtemp()
         data_file = os.path.join(tmp_folder, self.DATA_FILE)
-        output_file = os.path.join(tmp_folder, self.OUTPUT_FILE)
         pred_file = os.path.join(tmp_folder, self.PRED_FILE)
         log_file = os.path.join(tmp_folder, self.LOG_FILE)
         with open(data_file, "w") as f:
@@ -57,7 +55,6 @@ class Model(object):
                     self.framework_dir,
                     data_file,
                     pred_file,
-                    # output_file,
                 )
             ]
             f.write(os.linesep.join(lines))
