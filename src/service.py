@@ -26,7 +26,7 @@ class Model(object):
     def __init__(self):
         self.DATA_FILE = "_data.csv"
         self.PRED_FILE = "pred.csv"  
-        self.OUTPUT_FILE = "_output.csv"
+        # self.OUTPUT_FILE = "_output.csv"
         self.RUN_FILE = "_run.sh"
         self.LOG_FILE = "run.log"
 
@@ -56,8 +56,8 @@ class Model(object):
                 "bash {0}/run.sh {1} {2}".format(
                     self.framework_dir,
                     data_file,
-                    output_file,
-                    #self.checkpoints_dir
+                    pred_file,
+                    # output_file,
                 )
             ]
             f.write(os.linesep.join(lines))
