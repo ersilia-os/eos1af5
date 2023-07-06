@@ -27,6 +27,11 @@ with open(infile, "r") as f:
 
 preds = predict(mols, model_pt, progress=True)[:,0]
 
+#check input and output have the same length
+input_len = len(mols)
+output_len = len(mols)
+assert input_len == output_len
+
 with open(outfile, "w") as f:
     writer = csv.writer(f)
     writer.writerow(["log10_passive_permeability"])
