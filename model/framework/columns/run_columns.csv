@@ -1,0 +1,2 @@
+name,type,direction,description
+log10_passive_permeability,float,high,Log10 of passive permeability
