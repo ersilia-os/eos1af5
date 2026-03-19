@@ -2,7 +2,7 @@
 
 By combining a Message-Passing Graph Neural Network (MPGNN) and a Forward fully connected Neural Network (FNN) with an integrated gradients explainable artificial intelligence (XAI) method, the authors developed MolGrad and tested it on a number of ADME predictive tasks. MolGrad incorporates explainable features to facilitate interpretation of the predictions.  This model has been trained using experimental data on the permeability of molecules across Caco2 cell membranes (Papp, cm s-1)
 
-This model was incorporated on 2021-10-19.Last packaged on 2025-10-13.
+This model was incorporated on 2021-10-19.Last packaged on 2026-03-19.
 
 ## Information
 ### Identifiers
@@ -41,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `17`
 - **Environment Size (Mb):** `2415`
-- **Image Size (Mb):** `2396.57`
+- **Image Size (Mb):** `2399.18`
 
 **Computational Performance (seconds):**
-- 10 inputs: `29.04`
-- 100 inputs: `20.27`
-- 10000 inputs: `631.55`
+- 10 inputs: `31.08`
+- 100 inputs: `22.27`
+- 10000 inputs: `195.25`
 
 ### References
 - **Source Code**: [https://github.com/josejimenezluna/molgrad/](https://github.com/josejimenezluna/molgrad/)
