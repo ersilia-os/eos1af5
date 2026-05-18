@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/josejimenezluna/molgrad/](https://github.com/josejimenezluna/molgrad/)
-- **Publication**: [https://pubs.acs.org/doi/10.1021/acs.jcim.0c01344](https://pubs.acs.org/doi/10.1021/acs.jcim.0c01344)
+- **Publication**: [https://doi.org/10.1021/acs.jcim.0c01344](https://doi.org/10.1021/acs.jcim.0c01344)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2021`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
