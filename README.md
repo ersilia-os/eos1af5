@@ -1,6 +1,6 @@
 # Coloring molecules for Caco-2 cell permeability
 
-By combining a Message-Passing Graph Neural Network (MPGNN) and a Forward fully connected Neural Network (FNN) with an integrated gradients explainable artificial intelligence (XAI) method, the authors developed MolGrad and tested it on a number of ADME predictive tasks. MolGrad incorporates explainable features to facilitate interpretation of the predictions.  This model has been trained using experimental data on the permeability of molecules across Caco2 cell membranes (Papp, cm s-1)
+Estimates apparent permeability across a Caco-2 monolayer, the standard in vitro proxy for how readily an orally dosed compound crosses the intestinal wall. Values are expressed on a log10 scale for numerical stability during training. Jimenez-Luna and colleagues fitted message-passing graph neural networks to 239 compounds gathered from two independent studies, pairing each prediction with integrated-gradients colouring that marks the atoms driving it. With so few training compounds, the model is best treated as a ranking aid.
 
 This model was incorporated on 2021-10-19.Last packaged on 2026-03-19.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2021-10-19.Last packaged on 2026-03-19.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Log 10 of the Passive permeability in cm s-1
+- **Interpretation:** Predicted log10 Caco-2 apparent permeability in cm/s, higher values indicating greater permeability.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
