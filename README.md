@@ -1,6 +1,6 @@
 # Coloring molecules for Caco-2 cell permeability
 
-Estimates apparent permeability across a Caco-2 monolayer, the standard in vitro proxy for how readily an orally dosed compound crosses the intestinal wall. Values are expressed on a log10 scale for numerical stability during training. Jimenez-Luna and colleagues fitted message-passing graph neural networks to 239 compounds gathered from two independent studies, pairing each prediction with integrated-gradients colouring that marks the atoms driving it. With so few training compounds, the model is best treated as a ranking aid.
+Estimates apparent permeability across a Caco-2 monolayer, the in vitro gold-standard proxy for how readily an orally dosed compound crosses the intestinal wall. Values come back as the negative log10 of Papp in cm/s, so a higher number means a less permeable compound. Jimenez-Luna and colleagues fitted a message-passing graph neural network, paired with integrated-gradients colouring of the atoms behind each prediction, to 239 compounds pooled from two studies. With so little data and a cross-validated Pearson R of 0.53, treat the output as a ranking aid.
 
 This model was incorporated on 2021-10-19.Last packaged on 2026-03-19.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2021-10-19.Last packaged on 2026-03-19.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Predicted log10 Caco-2 apparent permeability in cm/s, higher values indicating greater permeability.
+- **Interpretation:** Negative log10 of Caco-2 apparent permeability in cm/s, where lower values indicate greater permeability.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
