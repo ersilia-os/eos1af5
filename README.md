@@ -2,7 +2,8 @@
 
 Estimates apparent permeability across a Caco-2 monolayer, the in vitro gold-standard proxy for how readily an orally dosed compound crosses the intestinal wall. Values come back as the negative log10 of Papp in cm/s, so a higher number means a less permeable compound. Jimenez-Luna and colleagues fitted a message-passing graph neural network, paired with integrated-gradients colouring of the atoms behind each prediction, to 239 compounds pooled from two studies. With so little data and a cross-validated Pearson R of 0.53, treat the output as a ranking aid.
 
-This model was incorporated on 2021-10-19.Last packaged on 2026-03-19.
+This model was incorporated on 2021-10-19.
+Last packaged on 2026-03-19.
 
 ## Information
 ### Identifiers
