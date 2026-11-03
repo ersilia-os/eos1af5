@@ -3,7 +3,7 @@
 Estimates apparent permeability across a Caco-2 monolayer, the in vitro gold-standard proxy for how readily an orally dosed compound crosses the intestinal wall. Values come back as the negative log10 of Papp in cm/s, so a higher number means a less permeable compound. Jimenez-Luna and colleagues fitted a message-passing graph neural network, paired with integrated-gradients colouring of the atoms behind each prediction, to 239 compounds pooled from two studies. With so little data and a cross-validated Pearson R of 0.53, treat the output as a ranking aid.
 
 This model was incorporated on 2021-10-19.
-Last packaged on 2026-03-19.
+Last packaged on 2026-11-03.
 
 ## Information
 ### Identifiers
@@ -42,12 +42,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `17`
 - **Environment Size (Mb):** `2414`
-- **Image Size (Mb):** `2399.18`
+- **Image Size (Mb):** `2330.42`
 
 **Computational Performance (seconds):**
-- 10 inputs: `31.08`
-- 100 inputs: `22.27`
-- 10000 inputs: `195.25`
+- 10 inputs: `24.46`
+- 100 inputs: `16.14`
+- 10000 inputs: `162.74`
 
 ### References
 - **Source Code**: [https://github.com/josejimenezluna/molgrad/](https://github.com/josejimenezluna/molgrad/)
