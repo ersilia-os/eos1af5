@@ -41,7 +41,7 @@
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2021-10-19",
     "Last Packaging Date": "2026-11-03",
-    "Release": "v1.0.0",
+    "Release": "v1.1.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos1af5.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos1af5",
     "Docker Architecture": "AMD64",
